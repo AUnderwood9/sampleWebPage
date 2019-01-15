@@ -28,6 +28,7 @@ body{
 .headerNav li{
 	display: inline;
 	font-size: 1.2em;
+	padding-right: 20px;
 }
 
 .headerNav a{
@@ -35,10 +36,25 @@ body{
 	text-decoration: none;
 }
 
+.bodyContainer{
+	float: right;
+}
+
+.bodyContentTop, .bodyContentBottom{
+	width: 50vw;
+	height: 35vh;
+	border: solid white;
+}
+
 .sideBarContainer{
 	width: 30vw;
 	height: 80vh;
 	float: left;
 	clear: left;
-	border: solid;
+	border: solid white;
 }
+
+/*#main-content-container{
+	width: 75vw;
+	margin: 0 auto;
+}*/
