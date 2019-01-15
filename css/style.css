@@ -1,0 +1,44 @@
+body{
+	height: 100vh;
+	background: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+
+.headerBrand{
+	color: white;
+}
+
+.headerBrand span{
+	color: rgb(52, 152, 219);
+}
+
+.headerBrand{
+	float: left;
+	width: 40vw;
+}
+
+.headerNav{
+	float: right;
+	display: inline;
+	width: 40vw;
+	padding-top: 6vh;
+}
+
+.headerNav li{
+	display: inline;
+	font-size: 1.2em;
+}
+
+.headerNav a{
+	color: white;
+	text-decoration: none;
+}
+
+.sideBarContainer{
+	width: 30vw;
+	height: 80vh;
+	float: left;
+	clear: left;
+	border: solid;
+}
